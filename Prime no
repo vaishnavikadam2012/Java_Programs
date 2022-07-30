@@ -1,0 +1,29 @@
+import java.io.*;
+import java.util.*;
+import java.math.*;
+
+public class PrimeNo{
+public static void main(String [] args){
+
+Scanner sc=new Scanner(System.in);
+//int n=sc.nextInt(); 
+int flag=0;
+
+BigInteger bgi=sc.nextBigInteger();
+
+System.out.println(bgi.isProbablePrime(5)?"Prime":"notPrime");
+
+/*if(n%2==0)
+{
+System.out.println(n+" is not a prime no");
+flag=1;
+}
+if(n==0||n==1)
+{System.out.println(n+" is not a prime no");
+flag=1;
+}
+if(flag==0)
+{System.out.println(n+" is a prime no");
+}*/
+}
+}
